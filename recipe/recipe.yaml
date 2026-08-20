@@ -56,7 +56,9 @@ tests:
         - irma.ncrystal
         - irma.mlip
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
   - script:
       - irma --version
       - irma --help
