@@ -6,7 +6,6 @@ context:
   name: irma-sqw
   pypi_name: irma
   version: "1.0.3"
-  python_min: "3.11"
 
 package:
   name: ${{ name }}
