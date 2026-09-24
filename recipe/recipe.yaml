@@ -5,7 +5,7 @@
 context:
   name: irma-sqw
   pypi_name: irma
-  version: "1.0.3"
+  version: "1.1.0"
 
 package:
   name: ${{ name }}
@@ -13,7 +13,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/${{ pypi_name }}/${{ pypi_name }}-${{ version }}.tar.gz
-  sha256: c413546d1187cbf99501b0e9d43f6be114b5151b9713529595dc119b95370ef5
+  sha256: b030da0008009339503dc170a9adc4fc053898cd791dccc9c774fed1eb1ba124
 
 build:
   noarch: python
